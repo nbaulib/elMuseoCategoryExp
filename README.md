@@ -9,7 +9,6 @@ This app takes an Excel file with contact categories and:
 - Splits multiple categories into separate rows
 - Creates a CSV file containing the expanded spreadsheet
 - Exports separate CSV files for each category
-- Removes duplicate contacts based on email addresses
 
 ## How to use
 1. Go to https://elmuseo-press-tool.streamlit.app/
