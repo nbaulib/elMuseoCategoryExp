@@ -8,7 +8,10 @@ CATEGORY_COLUMN = "Categories"
 EMAIL_COLUMN = "Email/Contact Info"
 
 st.title("Press List Category Exporter")
-
+st.markdown(
+    "Upload your master press list to expand contacts with multiple categories and "
+    "generate individual CSV files for every category."
+)
 uploaded_file = st.file_uploader(
     "Upload Excel file",
     type=["xlsx"]
